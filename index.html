@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapakbaju</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/443c141198.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+  </head>
+<body>
+    <div class="container">
+        <div>
+          <div class="sidenav">
+            <div class="top-box">
+              <img src="/images/logo.png" alt="" class="logo">
+            <hr>
+            </div>
+
+            <h2 id="h2-text">Category</h2>
+            <div class="box1">
+              <a href="#about">T-Shirt</a>
+              <a href="#services">Sweatshirt</a>
+              <a href="#clients">Dress</a>
+              <a href="#contact">Pants and Skirt</a>
+              <a href="#contact">Swimsuit</a>
+              <a href="#contact">Staff and Accessories</a>
+            </div>
+
+            <h2 id="h2-text">Filter by :</h2>
+              <button class="dropdown-btn">Tipe
+                <i class="fa-sharp fa-solid fa-caret-down" id="fa-caret-down"></i>
+              </button>
+
+              <div class="dropdown-container">
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Basic</a>
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Pattern</a>
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Hoodie</a>
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Zipper</a>
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Oversize</a>
+                </div>
+              </div>
+
+              <button class="dropdown-btn">Color 
+                <i class="fa-sharp fa-solid fa-caret-down" id="fa-caret-down"></i>
+                </button>
+              <div class="dropdown-container">
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Zipper</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Black</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Red</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Brown</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Multicolour</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Grey</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>  
+                <div class="link1">
+                  <input type="checkbox" name="" id="link1"><a href="#">Blue</a>
+                  <img src="/images/color spectrum 2.png" alt="" class="checkbox">
+                </div>          
+              </div>
+
+
+              <button class="dropdown-btn">Size
+                <i class="fa-sharp fa-solid fa-caret-down" id="fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container" >
+                <a href="">S</a>
+                <a href="">M</a>
+                <a href="">L</a>
+                <a href="">XL</a>
+                <a href="">XXL</a>
+                <a href="">XXXL</a>
+              </div>
+
+              <button class="dropdown-btn">Price
+                <i class="fa-sharp fa-solid fa-caret-down" id="fa-caret-down"></i>
+              </button>
+              <div class="dropdown-container" >
+                <a href="">Middle Class</a>
+                <a href="">Wealth</a>
+                <a href="">High Society</a>
+              </div>
+
+              <div class="apply">
+                <button>
+                  <h3>Apply</h3>
+                </button>
+                <button style="width: 60px;"><ion-icon name="trash" class="apply-icon"></ion-icon></button>
+              </div>
+
+          </div>
+       <div>
+
+        <div class="topbar">
+            <div class="topbar-col-left">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Enter Email..." name="search">
+                    <button type="submit" class="submit"><ion-icon name="basketball"></ion-icon></button>
+                  </form>
+            </div>
+            <div class="topbar-col-right">
+                <button class="circle">ENG<ion-icon name="basketball"></ion-icon></button>
+                <button class="top-btn">Wishlist <ion-icon name="heart"></ion-icon></button>
+                <button class="top-btn">Your Cart <ion-icon name="cart"></ion-icon></button>
+                <button class="profile">ME</button>
+            </div>
+        </div>
+
+        <div class="main">
+
+          <div class="top-2">
+              <ion-icon name="home" id="top-2-iconz"></ion-icon>
+              <p>Main Page</p>
+              <i class="fa-sharp fa-solid fa-greater-than" id="top-2-icon"></i>
+              <p>Category</p>
+              <i class="fa-sharp fa-solid fa-greater-than" id="top-2-icon"></i>
+              <p>Sweatshirt</p>
+          </div>
+
+          <div class="top3-row">
+              <div class="top3-col-left">
+                <p>SweatShirt</p>
+              </div>
+
+              <div class="top3-col-right">
+                <div class="sort-by">
+                  <p> Sort by : Most Popular</p>
+                  <ion-icon name="home" id="top3-icon"></ion-icon>
+                </div>
+              </div>
+          </div>
+
+          <div class="top4-row">
+            <button>Oversize</button>
+            <button>Multicolor</button>
+            <button>XXL</button>
+          </div>
+
+
+        <div class="catalog">
+
+          <div class="cata1-row">
+
+            <div class="card">
+               <div class="card-img">
+                <img src="/images/product-1.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-4.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      New Deal
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-6.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div> 
+
+          <!-- next cata -->
+           <div class="cata1-row"> 
+
+            <div class="card">
+               <div class="card-img">
+                <img src="/images/product-8.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      New 
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-7.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-9.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>  --
+
+          <!-- next cata -->
+          <div class="cata1-row">
+
+            <div class="card">
+               <div class="card-img">
+                <img src="/images/product-5.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-10.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Hot Promo
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-img">
+                <img src="/images/product-11.jpg" alt="">
+                <div class="card-float">
+                  <div class="btn-card">
+                    <button >
+                      Best Seller
+                    </button>
+                  </div>
+                  <div class="svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="card-text">
+                <p id="card-text-p">Line-Pattern Zipper Sweatshirt</p>
+                <div class="card-price">
+                  <div class="card-price-text">
+                   <p> Price:</p>
+                   <h2> $200 </h2>
+                  </div>
+                  <button>  
+                    <ion-icon name="cart" class="btn"></ion-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div> 
+
+          <div class="bottom-bar">
+            <span>Previous</span>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>..</button>
+            <button>20</button>
+            <span>Next</span>
+          </div> 
+
+        </div>
+
+        </div>
+    </header>
+    <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+      
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+      </script>
+   
+   
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
