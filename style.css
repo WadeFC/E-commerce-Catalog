@@ -135,7 +135,7 @@
   }
   .example input:hover{
     background-color: aliceblue;
-  }
+  } 
     
     /* Style the submit button */
     .example button {
@@ -152,7 +152,7 @@
     
     form.example button:hover {
     background: #0b7dda;
-    }
+    } 
     
     /* Clear floats */
     form.example::after {
@@ -244,7 +244,7 @@
    .sort-by:hover{
     background-color: gray;
    }
-  
+   
 
    #top3-icon{
     padding-top: 20px;
@@ -370,6 +370,9 @@
       background-color: rgb(115, 113, 163);
       border: none;
     }
+    .card-price button:hover{
+      background-color:gray ;
+    } 
     .btn{
       font-size: 30px;
     }
@@ -394,7 +397,7 @@
 
 
   
-    @media only screen and (max-width:420px) and (min-width: 240px){
+  @media only screen and (max-width:425px) and (min-width: 240px){
       .logo {
         width: 80px;
         margin-bottom: 10px;
@@ -445,167 +448,162 @@
         overflow-x: hidden;
         padding-top: 20px;
         border-right: solid 1px gray;
-    }
-    #h2-text{
-      font-size: 20px;
-    }
-    .main {
-      margin-left: 60px; /* Same as the width of the sidenav */
-      font-size: 10px; /* Increased text to enable scrolling */
-      padding: 0px 10px;
-    }
-    .topbar{
-      display:block;
-      /* justify-content: space-between; */
-      border-bottom: none;
-      margin: 0px 1px;
-      padding: 20px 20px;
-  }    
-  .topbar-col-left{
-      /* flex-basis: 100%; */
-  }
-  .topbar-col-left{
-      margin-left: 70px;
+        }
+        #h2-text{
+          font-size: 20px;
+          padding: 5px;
+        }
+        .main {
+          margin-left: 60px; /* Same as the width of the sidenav */
+          font-size: 10px; /* Increased text to enable scrolling */
+          padding: 0px 10px;
+        }
+        .topbar{
+          display:block;
+          /* justify-content: space-between; */
+          border-bottom: none;
+          margin: 0px 1px;
+          padding: 20px 20px;
+      }    
+      .topbar-col-left{
+          /* flex-basis: 100%; */
+      }
+      .topbar-col-left{
+          margin-left: 70px;
+          display: flex;
+      }
+      .topbar-col-right{
+        margin-left: 80px;
+        display: flex;
+      }
+
+
+      .top-btn{
+      width: 70px;
+      height: 30px;
+      border: none;
+      border-radius: 10px;
+      margin-right: 5px;
+      margin-left: 5px;
+      background-color: rgb(235, 217, 217);
+      }
+      .profile {
+      width: 40px;
+      border: solid 1px gray;
+      height: 39px;
+      border-radius: 50px;
+      background-color: transparent;
+      }
+      .top-btn:hover{
+      background-color: gray;
+      }
+      .top-2{
       display: flex;
-  }
-  .topbar-col-right{
-    margin-left: 80px;
-    display: flex;
-}
+      border-bottom: 0;
+      margin: 0;
+        max-height: 20px;
+      }
 
+      .top-2 p{
+      font-size: 14px;
+      font-weight: 900;
+      color: gray;
+      }
+      #top-2-icon{
+      color: #818181;
+      }
+      #top-2-iconz{
+      margin-left: 25px;
+      font-size: 20px;
+      padding-bottom: 80px;
+      background-color: transparent;
+      }
+      .sort-by{
+      display: flex;
+      background-color:rgb(235, 217, 217);
+      border-radius: 30px;
+      height: 50px;
+      width: 120px;
+      max-width:370px ;
+      }
+      .top3-row{
+      display: flex;
+      max-width: 300px;
+      height: 30px;
+      }
+      .top3-col-left {
+      font-size: 19px;
+      margin-left: 30px;
+      margin-bottom: 40px;
 
-.top-btn{
-  width: 70px;
-  height: 30px;
-  border: none;
-  border-radius: 10px;
-  margin-right: 5px;
-  margin-left: 5px;
-  background-color: rgb(235, 217, 217);
-}
-.profile {
-  width: 40px;
-  border: solid 1px gray;
-  height: 39px;
-  ma
-  border-radius: 50px;
-  background-color: transparent;
-}
-.top-btn:hover{
-  background-color: gray;
- }
-.top-2{
-  display: flex;
-  margin: 10px;
-  border-bottom: 0;
+      /* padding-top: 100px; */
+      /* font-weight: 600; */
+      }
+      .top3-col-right {
+      font-size: 11px;
+      padding-bottom: 40px;
+      }
 
-}
+      .top3-col-left p {
+      padding-bottom: 20px;
+      margin-bottom: 80px;
+      }
+      .top3-col-left,.top3-col-right{
+      margin-top: 0;
+      padding: 0;
 
-.top-2 p{
-font-size: 9px;
-font-weight: 900;
-color: gray;
-}
-#top-2-icon{
-/* margin-left: 5px; */
-/* font-size: 15px; */
-/* padding: 25px 10px 10px 10px; */
-color: #818181;
-}
-#top-2-iconz{
-margin-left: 5px;
-font-size: 20px;
-/* margin-bottom: 30px; */
-padding-bottom: 80px;
-/* padding: 15px 10px 10px 10px; */
-background-color: transparent;
-}
-.sort-by{
-  display: flex;
-  background-color:rgb(235, 217, 217);
-  border-radius: 30px;
-  height: 50px;
-  width: 120px;
-  max-width:370px ;
- }
- .top3-row{
-  display: flex;
-  max-width: 300px;
-  height: 30px;
- }
- .top3-col-left {
-  font-size: 19px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  
-  /* padding-top: 100px; */
-  /* font-weight: 600; */
-}
-.top3-col-right {
-  font-size: 11px;
-  padding-bottom: 40px;
-}
-
-.top3-col-left p {
-  padding-bottom: 20px;
-  margin-bottom: 80px;
-}
-.top3-col-left,.top3-col-right{
-  margin-top: 0;
-  padding: 0;
-
-}
-#top3-icon{
-  padding-right: 30px;
-  font-size: 50px;
-  padding-top: 0;
-}
-.top-2{
-margin: 0;
-}
-.top3{
-  padding: 0;
-}
-.catalog {
-  min-width: 270px;
-  margin-left: 0px;
-}
-.cata1-row {
-  display: block;
-  /* justify-content: space-evenly; */
-  max-width: 300px;
-  margin: 30px 0;
-}
-.card{
-  max-width: 550px;
-  max-height: 480px;
-  margin-right: 0;
-}
-.top4-row{
-  margin: 30px;
-}
-.top4-row button {
-  /* width: 80px; */
-  padding: 10px 10px;
-  margin-left: 5px;
-  background-color: beige;
-  border-radius: 10px;
-  border: none;
-}
-.bottom-bar {
-  max-width: 200px;
-  text-align: center;
-  margin-left: 40px;
-}
-.apply {
-  margin: 50px 5px 5px;
-  display: block;
-}
-.apply button{
-  width: 60px;
-}
-    /* for tablet  */
-  }
+      }
+      #top3-icon{
+      padding-right: 30px;
+      font-size: 50px;
+      padding-top: 0;
+      }
+      .top-2{
+      margin: 0;
+      }
+      .top3{
+      padding: 0;
+      }
+      .catalog {
+      min-width: 270px;
+      margin-left: 0px;
+      }
+      .cata1-row {
+      display: block;
+      /* justify-content: space-evenly; */
+      max-width: 300px;
+      margin: 30px 0;
+      }
+      .card{
+      max-width: 550px;
+      max-height: 480px;
+      margin-right: 0;
+      }
+      .top4-row{
+      margin: 30px;
+      }
+      .top4-row button {
+      /* width: 80px; */
+      padding: 10px 10px;
+      margin-left: 5px;
+      background-color: beige;
+      border-radius: 10px;
+      border: none;
+      }
+      .bottom-bar {
+      max-width: 200px;
+      text-align: center;
+      margin-left: 40px;
+      }
+      .apply {
+      margin: 50px 5px 5px;
+      display: block;
+      }
+      .apply button{
+      width: 60px;
+      }
+        /* for tablet  */
+      }
   @media only screen and (max-width: 900px) and (min-width: 500px){
      .logo {
         width: 80px;
